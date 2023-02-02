@@ -20,5 +20,13 @@ http://localhost:8080/swagger-ui.html
 
 #For h2 Database 
 #------Application.properties File Configurations------------
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driver-class-name=org.h2.Driver
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2
 
+server.port=8080
 
