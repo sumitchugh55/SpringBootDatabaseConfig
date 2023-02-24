@@ -46,3 +46,6 @@ spring.datasource.password=gameplay867@
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# Note important add below in which main file
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
